@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*  Cores
+     #0054E6 
+     #3F00E6
+     #000BE6
+     #25A8E6
+     #555CEA
+*/
+
+:root {
+    --cor1: #0054E6;
+    --cor2: #3F00E6;
+    --cor3: #000BE6;
+    --cor4: #25A8E6;
+    --cor5: #555CEA;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor4), var(--cor1));
+    height: 130px;
+}
+
+header > h1 {
+    color: white;
+    padding-top: 35px;
+    text-align: center;
+}
+
+menu {
+    background-color: var(--cor4);
+
+}
+
+menu > a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
